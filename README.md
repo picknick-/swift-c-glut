@@ -1,2 +1,2 @@
 # swift-c-glut
-glut module for swift
+freeGLUT module for swift

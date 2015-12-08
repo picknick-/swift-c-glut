@@ -1,0 +1,5 @@
+module CFREEGLUT [system] {
+       header "/usr/include/GL/freeglut.h"
+       link "freeglut"
+       export *
+       }
