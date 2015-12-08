@@ -1,5 +1,23 @@
-module CFREEGLUT [system] {
+module CGLFREEGLUT [system] {
        header "/usr/include/GL/freeglut.h"
-       link "freeglut"
+       link "glut"
+       export *
+       }
+
+module CGLGLUT [system] {
+       header "/usr/include/GL/glut.h"
+       link "glut"
+       export *
+       }
+       
+module CGLGLEW [system] {
+       header "/usr/include/GL/glew.h"
+       link "GL"
+       export *
+       }
+       
+module CGL [system] {
+       header "/usr/include/GL/gl.h"
+       link "GL"
        export *
        }
